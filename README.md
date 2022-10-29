@@ -11,5 +11,6 @@ QBCore.Functions.CreateUseableItem("popcorn", function(source, item)
 end)
 ```
 **[qb]/qb-smallresources/config.lua**
-```["popcorn"] = math.random(35, 54),
+```
+["popcorn"] = math.random(35, 54),
 ```
