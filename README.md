@@ -10,3 +10,6 @@ QBCore.Functions.CreateUseableItem("popcorn", function(source, item)
     TriggerClientEvent("consumables:client:Eat", source, item.name)
 end)
 ```
+**[qb]/qb-smallresources/config.lua**
+```["popcorn"] = math.random(35, 54),
+```
