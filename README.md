@@ -15,3 +15,11 @@ end)
 ["popcorn"] = math.random(35, 54),
 ```
 The popcorn.ogg put in **[standalone]\interact-sound\client\html\sounds** folder
+
+**[qb]/qb-core/shared/items.lua**
+```
+	-- Popcorn
+
+	['popcorncsomag'] 			     = {['name'] = 'popcorncsomag', 				['label'] = 'Popcorn Csomag', 			['weight'] = 200, 		['type'] = 'item', 		['image'] = 'popcorncsomag.png', 		['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Pattogtatni való Kuki'},
+	['popcorn'] 					 = {['name'] = 'popcorn', 			 	  	  	['label'] = 'Popcorn', 	                ['weight'] = 200, 		['type'] = 'item', 		['image'] = 'popcorn.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Pattogtatott finom nasi'},
+```
