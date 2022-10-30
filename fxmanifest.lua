@@ -4,7 +4,7 @@ game 'gta5'
 
 author 'terenszhill'
 
-description 'Kukorica pattogtatás'
+description 'popcorn maker script for qbcore'
 
 version '0.1'
 
